@@ -14,37 +14,37 @@
 print ('Join the discord - https://discord.gg/dhsjKNUaf9')
 --
 if game.PlaceId == 292439477 then -- Phantom Forces
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/yuhsecurity/hazeinfinity/main/Scripts/Phantom%20Forces.lua"))()
     local h = Instance.new("Message")
     h.Parent = Workspace 
     h.Text = "Lux Loader | Phantom Forces Detected, Loading Script..."
-    wait(5)
+    wait(10)
     h:Remove()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xshonda/lux/main/Scripts/Phantom%20Forces.lua"))()
     
 --
 elseif game.PlaceId == 3233893879 then -- Bad Business
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/yuhsecurity/hazeinfinity/main/Scripts/Bad%20Business.lua"))()
     local h = Instance.new("Message")
     h.Parent = Workspace 
     h.Text = "Lux Loader | Bad Business Detected, Loading Script..."
-    wait(5)
+    wait(10)
     h:Remove()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xshonda/lux/main/Scripts/Bad%20Business.lua"))()
 --
 elseif game.PlaceId == 286090429 then -- Arsenal
     local h = Instance.new("Message")
     h.Parent = Workspace 
     h.Text = "Lux Loader | Arsenal Detected, Loading Script..."
-    wait(5)
+    wait(10)
     h:Remove()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/yuhsecurity/hazeinfinity/main/Scripts/Arsenal.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xshonda/lux/main/Scripts/Arsenal.lua"))()
 --
 elseif game.PlaceId == 301549746 then -- Counter Blox
     local h = Instance.new("Message")
     h.Parent = Workspace 
     h.Text = "Lux Loader | Counter Blox Detected, Loading Script..."
-    wait(5)
+    wait(10)
     h:Remove()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/yuhsecurity/hazeinfinity/main/Scripts/Counter%20Blox.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xshonda/hexagon/main/scripts/CounterBlox.lua"))()
 --
 else
 game.Players.LocalPlayer:Kick("Game Not Supported by Lux Loader | https://discord.gg/dhsjKNUaf9") -- Trigger GNS Error
