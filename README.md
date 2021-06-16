@@ -1,1 +1,2 @@
-haze infinity was a project run by a friend, idk what happened to him he completely ghosted everyone and dissappeared but I'll do my best to keep this running
+# Lux
+Lux is a script loader which aims to combine the best scripts developed by the worlds smartest devs into one loadstring to prevent headaches
