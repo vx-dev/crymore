@@ -1,3 +1,4 @@
+--Working: 6/15/21
 local CurrentCamera = workspace.CurrentCamera
 local Players = game.GetService(game, "Players")
 local LocalPlayer = Players.LocalPlayer
