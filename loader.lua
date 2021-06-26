@@ -19,7 +19,7 @@ if game.PlaceId == 292439477 then -- Phantom Forces
     h.Text = "Lux Loader | Phantom Forces Detected, Loading Script..."
     wait(10)
     h:Remove()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/xshonda/lux/main/Scripts/Phantom%20Forces.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/lux/main/Scripts/Phantom%20Forces.lua"))()
     
 --
 elseif game.PlaceId == 3233893879 then -- Bad Business
@@ -28,7 +28,7 @@ elseif game.PlaceId == 3233893879 then -- Bad Business
     h.Text = "Lux Loader | Bad Business Detected, Loading Script..."
     wait(10)
     h:Remove()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/xshonda/lux/main/Scripts/Bad%20Business.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/lux/main/Scripts/Bad%20Business.lua"))()
 --
 elseif game.PlaceId == 286090429 then -- Arsenal
     local h = Instance.new("Message")
@@ -36,7 +36,7 @@ elseif game.PlaceId == 286090429 then -- Arsenal
     h.Text = "Lux Loader | Arsenal Detected, Loading Script..."
     wait(10)
     h:Remove()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/xshonda/lux/main/Scripts/Arsenal.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/lux/main/Scripts/Arsenal.lua"))()
 --
 elseif game.PlaceId == 301549746 then -- Counter Blox
     local h = Instance.new("Message")
@@ -44,7 +44,7 @@ elseif game.PlaceId == 301549746 then -- Counter Blox
     h.Text = "Lux Loader | Counter Blox Detected, Loading Script..."
     wait(10)
     h:Remove()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/xshonda/hexagon/main/scripts/CounterBlox.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/hexagon/main/scripts/CounterBlox.lua"))()
 --
 else
 game.Players.LocalPlayer:Kick("Game Not Supported by Lux Loader | https://discord.gg/dhsjKNUaf9") -- Trigger GNS Error
