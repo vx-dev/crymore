@@ -18,7 +18,7 @@ if game.PlaceId == 292439477 then -- Phantom Forces
     h.Text = "CryMore Loader | Phantom Forces Detected, Loading Script..."
     wait(10)
     h:Remove()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/lux/main/Scripts/Phantom%20Forces.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/Phantom%20Forces.lua"))()
     
 --
 elseif game.PlaceId == 3233893879 then -- Bad Business
@@ -27,7 +27,7 @@ elseif game.PlaceId == 3233893879 then -- Bad Business
     h.Text = "CryMore Loader | Bad Business Detected, Loading Script..."
     wait(10)
     h:Remove()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/lux/main/Scripts/Bad%20Business.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/Bad%20Business.lua"))()
 --
 elseif game.PlaceId == 286090429 then -- Arsenal
     local h = Instance.new("Message")
@@ -35,7 +35,7 @@ elseif game.PlaceId == 286090429 then -- Arsenal
     h.Text = "CryMore Loader | Arsenal Detected, Loading Script..."
     wait(10)
     h:Remove()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/lux/main/Scripts/Arsenal.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/Arsenal.lua"))()
 --
 elseif game.PlaceId == 301549746 then -- Counter Blox
     local h = Instance.new("Message")
@@ -51,7 +51,7 @@ elseif game.PlaceId == "6673614635" then -- unConventional
     h.Text = "CryMore Loader | unConventional Detected, Loading Script..."
     wait(10)
     h:Remove()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/lux/main/Scripts/unConventional"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/unConventional"))()
 --
 elseif game.PlaceId == "6872265039" then -- Bedwars
     local h = Instance.new("Message")
@@ -59,7 +59,7 @@ elseif game.PlaceId == "6872265039" then -- Bedwars
     h.Text = "CryMore Loader | Bedwars Detected, Loading Script..."
     wait(10)
     h:Remove()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/lux/main/Scripts/Bedwars"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/Bedwars"))()
 --
 elseif game.PlaceId == "3527629287" then -- Big Paintball
     local h = Instance.new("Message")
@@ -67,7 +67,7 @@ elseif game.PlaceId == "3527629287" then -- Big Paintball
     h.Text = "CryMore Loader | Big Paintball Detected, Loading Script..."
     wait(10)
     h:Remove()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/lux/main/Scripts/Big%20Paintball"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/Big%20Paintball"))()
 else
 game.Players.LocalPlayer:Kick("Game Not Supported by CryMore Loader | https://discord.gg/KTvtJdu7eG") -- Trigger GNS Error
 end
