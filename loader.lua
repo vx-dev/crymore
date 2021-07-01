@@ -11,7 +11,7 @@
 --_MMMMMMM  YMMMMM9 _M(_    _)MM_       _MMMMMMM  YMMMM9 _dM_     _dMM_MMMMMMM9'_MMMMMMMMM _MM_    \M\_
 
 
-print ('Join the discord - https://discord.gg/dhsjKNUaf9')
+print ('Join the discord - https://discord.gg/KTvtJdu7eG')
 --
 if game.PlaceId == 292439477 then -- Phantom Forces
     local h = Instance.new("Message")
@@ -46,6 +46,29 @@ elseif game.PlaceId == 301549746 then -- Counter Blox
     h:Remove()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/hexagon/main/scripts/CounterBlox.lua"))()
 --
+elseif game.PlaceId == "6673614635" then -- unConventional
+    local h = Instance.new("Message")
+    h.Parent = Workspace 
+    h.Text = "Lux Loader | unConventional Detected, Loading Script..."
+    wait(10)
+    h:Remove()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/lux/main/Scripts/unConventional"))()
+--
+elseif game.PlaceId == "6872265039" then -- Bedwars
+    local h = Instance.new("Message")
+    h.Parent = Workspace 
+    h.Text = "Lux Loader | Bedwars Detected, Loading Script..."
+    wait(10)
+    h:Remove()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/lux/main/Scripts/Bedwars"))()
+--
+elseif game.PlaceId == "3527629287" then -- Big Paintball
+    local h = Instance.new("Message")
+    h.Parent = Workspace 
+    h.Text = "Lux Loader | Big Paintball Detected, Loading Script..."
+    wait(10)
+    h:Remove()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/lux/main/Scripts/Big%20Paintball"))()
 else
-game.Players.LocalPlayer:Kick("Game Not Supported by Lux Loader | https://discord.gg/dhsjKNUaf9") -- Trigger GNS Error
+game.Players.LocalPlayer:Kick("Game Not Supported by Lux Loader | https://discord.gg/KTvtJdu7eG") -- Trigger GNS Error
 end
