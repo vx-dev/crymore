@@ -53,14 +53,6 @@ elseif game.PlaceId == "6673614635" then -- unConventional
     h:Remove()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/unConventional"))()
 --
-elseif game.PlaceId == "6872265039" then -- Bedwars
-    local h = Instance.new("Message")
-    h.Parent = Workspace 
-    h.Text = "CryMore Loader | Bedwars Detected, Loading Script..."
-    wait(10)
-    h:Remove()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/Bedwars"))()
---
 elseif game.PlaceId == "3527629287" then -- Big Paintball
     local h = Instance.new("Message")
     h.Parent = Workspace 
