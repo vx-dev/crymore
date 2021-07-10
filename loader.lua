@@ -13,53 +13,28 @@
 print ('Join the discord - https://discord.gg/KTvtJdu7eG')
 --
 if game.PlaceId == 292439477 then -- Phantom Forces
-    local h = Instance.new("Message")
-    h.Parent = Workspace 
-    h.Text = "CryMore Loader | Phantom Forces Detected, Loading Script..."
-    wait(10)
-    h:Remove()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/msg.lua"))()
+
     loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/Phantom%20Forces.lua"))()
-    
 --
 elseif game.PlaceId == 3233893879 then -- Bad Business
-    local h = Instance.new("Message")
-    h.Parent = Workspace 
-    h.Text = "CryMore Loader | Bad Business Detected, Loading Script..."
-    wait(10)
-    h:Remove()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/Bad%20Business.lua"))()
 --
 elseif game.PlaceId == 286090429 then -- Arsenal
-    local h = Instance.new("Message")
-    h.Parent = Workspace 
-    h.Text = "CryMore Loader | Arsenal Detected, Loading Script..."
-    wait(10)
-    h:Remove()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/msg.lua"))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/Arsenal.lua"))()
 --
 elseif game.PlaceId == 301549746 then -- Counter Blox
-    local h = Instance.new("Message")
-    h.Parent = Workspace 
-    h.Text = "CryMore Loader | Counter Blox Detected, Loading Script..."
-    wait(10)
-    h:Remove()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/msg.lua"))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/hexagon/main/scripts/CounterBlox.lua"))()
 --
 elseif game.PlaceId == "6673614635" then -- unConventional
-    local h = Instance.new("Message")
-    h.Parent = Workspace 
-    h.Text = "CryMore Loader | unConventional Detected, Loading Script..."
-    wait(10)
-    h:Remove()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/msg.lua"))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/unConventional"))()
 --
 elseif game.PlaceId == "3527629287" then -- Big Paintball
-    local h = Instance.new("Message")
-    h.Parent = Workspace 
-    h.Text = "CryMore Loader | Big Paintball Detected, Loading Script..."
-    wait(10)
-    h:Remove()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/msg.lua"))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/Big%20Paintball"))()
 else
-game.Players.LocalPlayer:Kick("Game Not Supported by CryMore Loader | https://discord.gg/KTvtJdu7eG") -- Trigger GNS Error
+game.Players.LocalPlayer:Kick("Game Not Supported by CryMore | https://discord.gg/KTvtJdu7eG") -- Trigger GNS Error
 end
