@@ -28,13 +28,13 @@ elseif game.PlaceId == 301549746 then -- Counter Blox
     loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/msg.lua"))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/hexagon/main/scripts/CounterBlox.lua"))()
 --
-elseif game.PlaceId == "6673614635" then -- unConventional
+elseif game.PlaceId == 6673614635 then -- unConventional
     loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/msg.lua"))()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/unConventional"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/unConventional.lua"))()
 --
-elseif game.PlaceId == "3527629287" then -- Big Paintball
+elseif game.PlaceId == 3527629287 then -- Big Paintball
     loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/msg.lua"))()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/Big%20Paintball"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vx-dev/crymore/main/Scripts/Big%20Paintball.lua"))()
 else
 game.Players.LocalPlayer:Kick("Game Not Supported by CryMore | https://discord.gg/KTvtJdu7eG") -- Trigger GNS Error
 end
